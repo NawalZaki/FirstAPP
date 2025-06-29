@@ -16,5 +16,13 @@ namespace FirstAPP
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            AboutUs abs = new AboutUs();
+            abs.Show();
+            form1.Hide();
+        }
     }
 }
